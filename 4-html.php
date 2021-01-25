@@ -1,6 +1,6 @@
 <?php
 
-$shoes = [
+$games = [
     [
         'name'  => 'Hadès',
         'price' => 45,

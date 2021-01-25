@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<form action="">
+<form action="" method="post">
     <div>
         <label for="gift">Ajouter un don</label>
         <input type="number" id="gift">

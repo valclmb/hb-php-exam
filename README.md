@@ -23,7 +23,7 @@ Des points peuvent être perdus pour le retard du rendu, à raison de 1 point pa
 ## 2. Conditions et boucles (2 points)
 
 - Dans `2-conditions.php` :
-  - [ ] Utiliser `echo` et `foreach` pour afficher toutes les valeurs du tableau `$shoes` (défini dans le fichier) et les séparer par des sauts de ligne
+  - [ ] Utiliser `echo` et `foreach` pour afficher toutes les valeurs du tableau `$shoes` (défini dans le fichier) et les séparer par des sauts de ligne (`<br />`)
   - [ ] Dans cette boucle, si l'index `price` d'un élément est strictement supérieur à `100`, ajouter un point d'exclamation sur sa ligne
 - [ ] Créer un commit avec vos changements
   
@@ -35,7 +35,7 @@ Des points peuvent être perdus pour le retard du rendu, à raison de 1 point pa
     - [ ] Retourne le résultat du calcul `4n + 6` si `n` est strictement supérieur à 5
     - [ ] Retourne le résultat du calcul `3n - 2` si `n` est inférieur ou égale à 5
     
-  - Créer une fonction `somme` qui 
+  - Créer une fonction `suiteNPlusUn` qui 
     - [ ] prend un nombre entier `n` en paramètre
     - [ ] renvoie la somme des entiers de 1 à `n` (1 + 2 + 3 + ... + n)
   
@@ -51,7 +51,7 @@ Des points peuvent être perdus pour le retard du rendu, à raison de 1 point pa
     - [ ] Nom des jeux
     - [ ] Prix (en euros)
       - [ ] Afficher tous les prix avec le format français (ex : 12,45€) grâce à la fonction `number_format()` ([dont la documentation est ici](https://php.net/manual/fr/function.number-format.php))
-    - Pour les jeux coutant moins de 50€, ajouter le texte `(pas chère !)` juste après le prix
+    - [ ] Pour les jeux coutant moins de 50€, ajouter le texte `(pas chère !)` juste après le prix
   - [ ] Dans la colonne du nom, ajouter un lien sur le texte, pointant vers `5-superglobales.php`, en ajoutant le paramètre `price` avec pour valeur le prix du jeu
 - [ ] Créer un commit avec vos changements
   
@@ -66,7 +66,7 @@ Des points peuvent être perdus pour le retard du rendu, à raison de 1 point pa
   - [ ] Vérifier que l'email entré est valide en utilisant la fonction `filter_var` ([dont la documentation est ici](https://www.php.net/manual/fr/function.filter-var))
     - [ ] Si ça n'est pas le cas, afficher un message d'erreur : "Veuillez entrer un email valide"
   - Si les deux champs sont valides, ajouter ces entrées dans la session
-    - [ ] `sum` qui va contenir la somme du price passé en paramètre de la page et de la valeur du champ `gift` du formulaire
+    - [ ] `sum` qui va contenir la somme du `price` passé en paramètre de la page et de la valeur du champ `gift` du formulaire
     - [ ] `email` qui va contenir la valeur du champ `email` du formulaire
 - [ ] Créer un commit avec vos changements
 
