@@ -12,7 +12,9 @@ use Rpg\Elf;
 
 $gimli = new Dwarf('Gimli');
 
+
 $legolas = new Elf('Legolas');
+
 
 echo 'Le combat démarre ! <br />';
 
