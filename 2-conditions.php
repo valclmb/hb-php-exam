@@ -27,3 +27,21 @@ $shoes = [
         'stock' => 32,
     ],
 ];
+
+
+foreach($shoes as $shoe) {//Boucle sur shoes
+
+    echo $shoe['name'] . '</br>';//Affiche index name 
+
+    if ($shoe['price'] > 100) //Si supérieur à cent affiche un ! en plus
+    {
+        echo $shoe['price'] . '! </br>'; //Affiche index price (+ !)
+    }else
+    {
+        echo $shoe['price'] . '</br>'; //Affiche index price
+    }
+
+   
+
+    echo $shoe['stock'] . '<br/>';//Affiche index stock
+}
