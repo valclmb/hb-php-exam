@@ -190,6 +190,7 @@ Maintenant, nous allons coder un mini-jeu de rôle. Deux personnages, Legolas et
   - Créer des méthodes pour créer / manipuler nos personnages
     - [ ] Un constructeur, prenant en paramètre le nom du personnage (et le mettant dans la propriété `name` de l'objet)
     - [ ] `getName()` retournant le nom du personnage
+    - [ ] `getLifePoints()` retournant le nombre de points de vie du personnage (`lifePoints`)
     - [ ] `hasSurrendered()` (a abandonné) qui renvoie `true` si le personnage a moins de 10 `lifePoints`, false sinon
     - [ ] `takeHit()` (prendre un coup) qui
       - [ ] prend en paramètre un entier `strength`
