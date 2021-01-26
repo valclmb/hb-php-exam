@@ -21,4 +21,4 @@ function suiteNPlusUn(int $n)
     return $s;
 }
 
-var_dump(fonctionAffine(1), fonctionAffine(), fonctionAffine(3), suiteNPlusUn(1), suiteNPlusUn(2), suiteNPlusUn(3));
+var_dump(fonctionAffine(1), fonctionAffine(2), fonctionAffine(3), suiteNPlusUn(1), suiteNPlusUn(2), suiteNPlusUn(3));
