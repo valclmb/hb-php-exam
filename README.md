@@ -8,7 +8,9 @@ Pour travailler sur ce projet :
 
 **2 points bonus** peuvent être gagnés si tout votre code est valide PSR-12 et PSR-4 (3 erreurs autorisées au total).
 
-Des points peuvent être perdus pour le retard du rendu, à raison de 1 point par heure de retard (l'heure de rendu étant fixée à 17h, le jour de l'examen).
+La durée prévue est d'environ 3h. Des points peuvent être perdus pour le retard du rendu :
+- 1 point si le rendu est fait après 20h
+- 2 point si le rendu est fait après 23h59 (et 59 secondes)
 
 Liste des exercices
 1. Utilisation des variables (1 point)
