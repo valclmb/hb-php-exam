@@ -211,7 +211,7 @@ Maintenant, nous allons coder un mini-jeu de rôle. Deux personnages, Legolas et
     - [ ] `Elf` initialisé avec les valeurs suivantes :
       - [ ] `strength` à 17
       - [ ] `lifePoints` à 75
-    - [ ] Conserver le comportement du constructeur de la classe parente
+    - [ ] Conserver le comportement du constructeur de la classe parente (pour se faire, appeler `parent::__construct($name)` dans les constructeurs de `Dwarf` et `Elf`)
   
 - Dans `8-jdr.php` :
   - [ ] Vérifier que le script fonctionne comme attendu
