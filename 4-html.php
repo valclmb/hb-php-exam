@@ -7,7 +7,7 @@ $games = [
     ],
     [
         'name'  => 'Cyberpubnk 2077 - édition avec carte graphique',
-        'price' => 850,
+        'price' => 10850,
     ],
     [
         'name'  => 'Disco Elysium',
@@ -22,3 +22,34 @@ $games = [
         'price' => 4,
     ],
 ];
+?>
+<table>
+<tr>
+<th>Nom des jeux</th>
+<th>Prix</th>
+
+</tr>
+<?php
+
+foreach ($games as $game) {//Boucle sur games et affiche name et price à chaque itération
+    ?>
+
+    <tr>
+
+                <td><a href="2-superglobales.php?price=<?=$game['price']?>"><?= $game['name'] ?></a></td>
+                
+                <td>
+                <?= number_format($game['price'], 2, ',', ' ') ?> € 
+                <?php
+                    if ($game['price'] < 50) {
+                        echo 'Pas chère !';
+                    } ?>
+                </td>
+                        
+    </tr> 
+
+<?php
+}
+?>
+
+</table>
