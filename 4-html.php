@@ -36,7 +36,7 @@ foreach ($games as $game) {//Boucle sur games et affiche name et price à chaque
 
     <tr>
 
-                <td><a href="2-superglobales.php?price=<?=$game['price']?>"><?= $game['name'] ?></a></td>
+                <td><a href="5-superglobales.php?price=<?=$game['price']?>"><?= $game['name'] ?></a></td>
                 
                 <td>
                 <?= number_format($game['price'], 2, ',', ' ') ?> € 
